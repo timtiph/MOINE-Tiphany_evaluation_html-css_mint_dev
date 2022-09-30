@@ -1,6 +1,20 @@
 {
-  "dependencies": {
-    "bootstrap": "^5.2.1",
-    "sass": "^1.55.0"
-  }
+  "name": "moine-tiphany_evaluation_html-css_mint_dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timtiph/MOINE-Tiphany_evaluation_html-css_mint_dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timtiph/MOINE-Tiphany_evaluation_html-css_mint_dev/issues"
+  },
+  "homepage": "https://github.com/timtiph/MOINE-Tiphany_evaluation_html-css_mint_dev#readme"
 }
