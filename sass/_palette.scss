@@ -1,0 +1,20 @@
+$dark-1: #1e1e1e;
+$mint: #ffe600;
+$mint-light: #ffffff;
+
+$custom-theme-colors: (
+  "dark-1": $dark-1,
+  "mint": $mint,
+  "mint-lignt": $mint-light
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+@each $key, $val in $custom-theme-colors {
+  .bg-#{$key} {
+    background-color: $val!important;
+  }
+  .text-#{$key} {
+    color: $val!important;
+  }
+}

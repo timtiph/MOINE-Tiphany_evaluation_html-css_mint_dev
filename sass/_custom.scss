@@ -2,5 +2,62 @@
 
 $font-family-base: Montserrat, sans-serif;
 .montserrat-font {
-  font-family: "'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  color: #1e1e1e;
+}
+
+.logo {
+    width: 109px;
+    height: 64px;
+    margin: 25px;
+
+  }
+
+@media screen and (max-width: 600px) {
+  .btn-mint {
+    display: none;
+  }
+  
+}
+  
+// image entete
+
+.object-cover {
+  object-fit: cover;
+}
+.object-pos-top {
+  object-position: 50% 30%;
+}
+
+.img-entete {
+  width: 979px;
+  height: 653px;
+  object-position: 50% 10%;
+}
+
+@media screen and (max-width: 600px) {
+  .img-entete{
+    max-width: 979px;
+    max-height: 653px;
+
+    .object-cover {
+      object-fit: cover;
+    }
+    .object-pos-top {
+      object-position: 50% 10%;
+    }
+  
+}
+}
+
+//Footer button
+
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5em;
+  line-height: 30px;
+  color: #fff;
 }
