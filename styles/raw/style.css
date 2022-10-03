@@ -4284,6 +4284,33 @@ html, body {
   border: none;
 }
 
+.img-card {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+#form-control-mint {
+  width: 90%;
+}
+
+.img-contact {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+
 .bg-dark-1 {
   background-color: #1e1e1e !important;
 }
