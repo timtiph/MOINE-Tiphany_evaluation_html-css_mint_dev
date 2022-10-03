@@ -1,17 +1,17 @@
-
 {
   "dependencies": {
     "bootstrap": "^5.2.1",
+    "purge": "^1.0.0",
     "sass": "^1.55.0"
   },
   "name": "moine-tiphany_evaluation_html-css_mint_dev",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-    "scripts": {
-    "sass": "sass --watch sass/global.scss:styles/raw/style.css"
+  "scripts": {
+    "sass": "sass --watch sass/global.scss:styles/raw/style.css",
+    "purgecss": "purgecss --css styles/raw/style.css --content index.html scripts/*.js -o styles/cleaned/home.css"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/timtiph/MOINE-Tiphany_evaluation_html-css_mint_dev.git"
@@ -23,5 +23,4 @@
     "url": "https://github.com/timtiph/MOINE-Tiphany_evaluation_html-css_mint_dev/issues"
   },
   "homepage": "https://github.com/timtiph/MOINE-Tiphany_evaluation_html-css_mint_dev#readme"
-
 }
