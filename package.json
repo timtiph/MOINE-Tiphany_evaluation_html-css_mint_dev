@@ -2,6 +2,7 @@
   "dependencies": {
     "bootstrap": "^5.2.1",
     "purge": "^1.0.0",
+    "purgecss": "^5.0.0",
     "sass": "^1.55.0"
   },
   "name": "moine-tiphany_evaluation_html-css_mint_dev",
