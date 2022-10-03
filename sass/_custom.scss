@@ -1,5 +1,22 @@
 // Global 
-
+html, body {
+  margin:0;
+  padding:0;
+  height:100%;
+  width: 100%;
+}
+#main {
+  min-height:100%;
+  position:relative;
+  padding-bottom:100px;   /* Hauteur du pied de page */
+}
+#footer {
+  position:absolute;
+  bottom:0;  /* on le colle en bas */
+  width:100%;
+  height:500px;   /* Hauteur du pied de page */
+}
+ 
 
 $font-family-base: Montserrat, sans-serif;
 .montserrat-font {
@@ -36,16 +53,50 @@ $font-family-base: Montserrat, sans-serif;
   object-position: 50% 10%;
 }
 
+
 .img-portfolio {
-  width: 100%;
-  height: 80%;
+  width: 33.33%;
+  height: 300px;
+  background-color: #ffe600;
   object-fit: cover;
+  position: absolute;
+  display: flex;
+  cursor: pointer;
+  z-index: 1;
+  margin: auto;
+  
 
 }
+.bg-img-portfolio{
+  width: 33.33%;
+  opacity: 50%;
+  background-color: #ffe600;
+}
+
+
+
+.img-portfolio:hover{
+  opacity: 50%;
+  filter: alpha(opacity=50);
+}
+
+.content-img {
+  text-align: center;
+  color:  #1e1e1e;
+}
+
+.texte-img-centrer {
+  position: absolute;
+  opacity: 0;
+  z-index: 2;
+  width: 100%;
+  height: 300px;
+}
+
 
 .bg-mint {
   --bs-bg-opacity: .5;
-  background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-mint-rgb), var(--bs-bg-opacity)) !important;
 }
 
 
